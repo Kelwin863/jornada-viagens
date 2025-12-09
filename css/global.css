@@ -34,25 +34,42 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: "Montserrat", sans-serif;
-    color: var(--text-primary-color);
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-primary-color);
 }
-.section-title h2{
+.section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
 }
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
-  background-color: #b81515;
+  background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
-@media screen and (min-width: 768px){
-  .section-title h2{
+.button {
+  display: inline-block;
+  width: 280px;
+  height: 64px;
+  text-decoration: none;
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  line-height: 64px;
+}
+@media screen and (min-width: 768px) {
+  .section-title h2 {
     font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .button:hover{
+    background-color: var(--primary-color);
   }
 }

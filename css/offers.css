@@ -1,6 +1,6 @@
 .card{
     color: var(--text-secondary-color);
-    background-color: black;
+    background: black;
     width: 312px;
     height: 288px;
     box-sizing: border-box;
@@ -12,6 +12,8 @@
     display: block;
     background-color: transparent;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 .card header p{
     font-size: 20px;
@@ -26,8 +28,4 @@
     margin-top: 8px;
     display: inline-block;
     font-size: 32px;
-}
-.button{
-    text-decoration: none;
-    color: var(--text-secondary-color);
 }
