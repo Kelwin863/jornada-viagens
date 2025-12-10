@@ -1,0 +1,6 @@
+.categories-cards{
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secundary-color);
+    border-radius: 8px;
+}
