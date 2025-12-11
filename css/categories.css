@@ -38,11 +38,17 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        margin: 64px auto 88px auto;
     }
 }
 @media screen and (min-width: 1024px){
     .categories-cards .card{
         width: 430px;
+    }
+}
+@media screen and (min-width: 1366px){
+    .categories-cards .card{
+        width: 280px;
     }
 }
 @media screen and (min-width: 1440px){
