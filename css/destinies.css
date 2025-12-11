@@ -1,0 +1,50 @@
+.article-tokyo{
+    width: 312px;
+    display: flex;
+    margin: 0 auto;
+}
+.article-tokyo article img{
+    display: flex;
+    width: 312px;
+    height: 360px;
+    margin: 0 auto;
+}
+.article-tokyo h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}
+.article-tokyo p{
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.article-tokyo .button{
+    width: 312px;
+    text-align: center;
+}
+.article-osaka{
+    width: 312px;
+    display: flex;
+    margin: 0 auto;
+}
+.article-osaka article img{
+    width: 312px;
+    height: 360px;
+    display: flex;
+    margin: 40px auto 24px auto;
+}
+.article-osaka h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}
+.article-osaka p{
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.article-osaka .button{
+    width: 312px;
+    text-align: center;
+}
