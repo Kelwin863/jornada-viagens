@@ -3,11 +3,14 @@
     display: flex;
     margin: 0 auto;
 }
-.article-tokyo article img{
+.article-tokyo article img .tokyo-mobile{
     display: flex;
     width: 312px;
     height: 360px;
     margin: 0 auto;
+}
+img.tokyo-maior{
+    display: none;
 }
 .article-tokyo h4{
     font-size: 28px;
@@ -28,11 +31,14 @@
     display: flex;
     margin: 0 auto;
 }
-.article-osaka article img{
+.article-osaka article img.osaka-mobile{
+    display: flex;
     width: 312px;
     height: 360px;
-    display: flex;
     margin: 40px auto 24px auto;
+}
+img.osaka-maior{
+    display: none;
 }
 .article-osaka h4{
     font-size: 28px;
@@ -47,4 +53,31 @@
 .article-osaka .button{
     width: 312px;
     text-align: center;
+}
+@media screen and (min-width: 768px){
+    .article-tokyo{
+        width: 648px;
+    }
+    .article-osaka{
+        width: 648px;
+    }
+    img.tokyo-mobile{
+        display: none;
+    }
+    .article-osaka article img.osaka-mobile{
+        display: none;
+    }
+    img.tokyo-maior{
+        display: flex;
+        width: 648px;
+        height: 452px;
+        margin: 0 auto;
+    }
+    img.osaka-maior{
+        display: flex;
+        width: 648px;
+        height: 452px;
+        margin: 40px auto 24px auto;
+    }
+    
 }
