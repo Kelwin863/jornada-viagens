@@ -54,7 +54,7 @@
   background-size: cover;
 }
 @media screen and (min-width: 768px) {
-  .offers-cards {
+  .offers-cards{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,9 +84,15 @@
         height: 308px;
     }
 }
+@media screen and (min-width: 1440px){
+    .offers-cards{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
 @media screen and (min-width: 1920px){
     .offers-cards{
-        width: 981px;
+        width: 1200px;
         margin: 0 auto;
     }
 }

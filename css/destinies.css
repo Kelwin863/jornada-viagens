@@ -110,3 +110,25 @@ img.osaka-maior{
         height: 338px;
     }
 }
+@media screen and (min-width: 1366px){
+    .destinies-pop{
+        width: 1200px;
+    }
+    .article-tokyo article{
+        margin-right: 24px;
+        width: 588px;
+        height: 750px;
+    }
+    .article-osaka article{
+        width: 588px;
+        height: 750px;
+    }
+    img.tokyo-maior{
+        width: 588px;
+        height: 452px;
+    }
+    img.osaka-maior{
+        width: 588px;
+        height: 452px;
+    }
+}
