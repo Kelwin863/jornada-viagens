@@ -42,7 +42,7 @@ body {
   width: 280px;
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0 auto 32px;
+  margin: 0 auto;
   text-align: center;
 }
 .section-title hr {
