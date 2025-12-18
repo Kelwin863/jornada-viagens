@@ -1,4 +1,4 @@
-header{
+.cabecalho{
     background-color: var(--background-tertiary-color);
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ nav{
 }
 
 @media screen and (min-width: 768px){
-    header{
+    .cabecalho{
         padding: 38px 60px;
     }
     .navigation-menu{
@@ -68,9 +68,12 @@ nav{
     .navigation-menu li{
         margin: 0;
     }
+    .navigation-menu a:hover{
+        color: var(--primary-color);
+    }
 }
 @media screen and (min-width: 1024px){
-    header{
+    .cabecalho{
         padding: 38px 120px;
     }
     .logo{
@@ -83,12 +86,10 @@ nav{
     .img-mobile{
         display: none;
     }
-    .navigation-menu a:hover{
-        color: var(--primary-color);
-    }
+    
 }
 @media screen and (min-width: 1920px){
-    header{
+    .cabecalho{
         padding: 38px 160px;
     }
 }
