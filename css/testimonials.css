@@ -1,6 +1,6 @@
 .testimonials{
     width: 312px;
-    margin: 0 auto;
+    margin: 0 auto 88px;
 }
 .testimonial-container{
     display: flex;
@@ -41,6 +41,7 @@
 @media screen and (min-width: 1440px){
     .testimonials{
         width: 1200px;
+        margin: 0 auto 104px;
     }
     .testimonial-container{
         flex-direction: row;
